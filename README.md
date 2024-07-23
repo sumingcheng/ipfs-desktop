@@ -10,6 +10,7 @@ IPFS Desktop Enhanced Edition 是对官方 IPFS Desktop 的一个增强版本，
 
 ## 架构图
 
+![image](https://github.com/user-attachments/assets/8685e608-6d9e-4824-ada0-77adcb49bdae)
 
 
 ## 系统要求
