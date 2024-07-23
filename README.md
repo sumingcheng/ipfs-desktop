@@ -3,15 +3,17 @@
 <div align="center">
   <a href="https://github.com/sumingcheng/ipfs-desktop/blob/main/README_EN.md">英文文档</a> | <a href="https://github.com/sumingcheng/ipfs-desktop/blob/main/README.md">中文文档</a>
 </div>
+------
 
-
-### IPFS Desktop Enhanced Edition 是对官方 IPFS Desktop 的一个增强版本，重构了之前的客户端，特别添加了内网部署支持、`swarm.key` 配置和自动配置生成功能。此版本旨在提供更加灵活和安全的 IPFS 网络配置选项，适用于需要在私网中运行的场景。
+IPFS Desktop Enhanced Edition 是对官方 IPFS Desktop 的一个增强版本，重构了之前的客户端，特别添加了内网部署支持、`swarm.key` 配置和自动配置生成功能。此版本旨在提供更加灵活和安全的 IPFS 网络配置选项，适用于需要在私网中运行的场景。
 
 ## 主要特性
 
-- **内网部署支持**：允许用户在内部网络中独立运行 IPFS，无需连接外部公共 IPFS 网络。
-- **`swarm.key` 支持**：通过 `swarm.key` 实现网络的私有化，增加数据传输的安全性。
-- **自动生成配置**：简化用户配置流程，自动创建必需的配置文件，配置文件目录`src/lib/ipfs`。
+**内网部署支持**：允许用户在内部网络中独立运行 IPFS，无需连接外部公共 IPFS 网络。
+
+**`swarm.key` 支持**：通过 `swarm.key` 实现网络的私有化，增加数据传输的安全性。
+
+**自动生成配置**：简化用户配置流程，自动创建必需的配置文件，配置文件目录`src/lib/ipfs`。
 
 ## 架构图
 
