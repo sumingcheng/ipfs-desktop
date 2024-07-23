@@ -1,4 +1,9 @@
 # IPFS Desktop Enhanced Edition
+<div align="center">
+  <a href="https://github.com/sumingcheng/ipfs-desktop/blob/main/README_EN.md">EN</a> | <a href="https://github.com/sumingcheng/ipfs-desktop/blob/main/README.md">CH</a>
+</div>
+
+------
 
 IPFS Desktop Enhanced Edition is an enhanced version of the official IPFS Desktop client. This version has been restructured to include support for internal network deployment, `swarm.key` configuration, and automated configuration generation. It is designed to offer more flexible and secure IPFS network configuration options, suitable for scenarios requiring operation within a private network.
 
