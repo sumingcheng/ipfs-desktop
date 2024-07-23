@@ -1,6 +1,6 @@
 # IPFS Desktop Enhanced Edition
 
-IPFS Desktop Enhanced Edition 是对官方 IPFS Desktop 的一个增强版本，重构了之前的客户端，特别添加了内网部署支持、`swarm.key` 配置和自动配置生成功能。此版本旨在提供更加灵活和安全的 IPFS 网络配置选项，适用于需要在封闭环境中运行的场景。
+IPFS Desktop Enhanced Edition 是对官方 IPFS Desktop 的一个增强版本，重构了之前的客户端，特别添加了内网部署支持、`swarm.key` 配置和自动配置生成功能。此版本旨在提供更加灵活和安全的 IPFS 网络配置选项，适用于需要在私网中运行的场景。
 
 ## 主要特性
 
@@ -20,31 +20,32 @@ IPFS Desktop Enhanced Edition 是对官方 IPFS Desktop 的一个增强版本，
 
 ## 本地开发
 
-### 安装
-
-**克隆仓库**：
+**克隆仓库**
 
 ```bash
 git clone https://github.com/sumingcheng/ipfs-desktop.git
 cd ipfs-desktop
 ```
 
-**安装依赖**：
+**安装依赖**
+
 ```bash
 yarn
 ```
 
-**构建应用**：
+**构建应用**
+
 ```bash
 npm run build
 ```
 
-**运行应用**：
+**运行应用**
+
 ```bash
 npm start
 ```
 
-## 使用说明
+## 配置与构建
 
 运行 IPFS Desktop Enhanced Edition 后，应用将自动在指定目录生成 `swarm.key` 和配置文件，并启动一个独立的 IPFS 节点。
 
@@ -78,7 +79,7 @@ ipfs-swarm-key-gen > swarm.key
 a884f23b1b210dbd5d93da695eca9c1b29658c3e199be870feb1e2991cc9306d
 ```
 
-## 更新 IPFS 配置文件
+### 更新 IPFS 配置文件
 
 进入项目`src/lib/ipfs/afterInstall.ts`找到`updateConfigFile`函数
 
