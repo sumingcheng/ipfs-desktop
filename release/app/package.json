@@ -1,0 +1,18 @@
+{
+  "name": "ai-store",
+  "version": "4.6.3",
+  "description": "electron aiStore",
+  "license": "MIT",
+  "author": {
+    "name": "Vent",
+    "email": "",
+    "url": ""
+  },
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "npm run rebuild && npm run link-modules",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+  },
+  "dependencies": {}
+}
