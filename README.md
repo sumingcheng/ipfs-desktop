@@ -44,7 +44,7 @@ yarn
 **构建应用**
 
 ```bash
-npm run build
+npm run package
 ```
 
 **运行应用**
